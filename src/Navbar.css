@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&family=Lexend&family=Red+Hat+Display&display=swap');
+
+.navbar-container {
+    width: 100vw;
+    height: 14vh;
+    background-color: rgb(171, 240, 240);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-left {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 35px;
+    align-self: flex-start;
+    background-color: aqua;
+    height: 100%;
+    padding: 3vh;
+    box-sizing: border-box;
+    
+}
+
+.navbar-right {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 20px;
+    align-self: flex-end;
+    background-color: aqua;
+    height: 100%;
+    width: max-content;
+    box-sizing: border-box;
+    display: flex;
+    padding: 5vh;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    margin-right: 4vw;
+}
+
+.link:hover {
+    color: rgb(83, 131, 185);
+}
+
+.link:visited {
+    text-decoration: none;
+}
